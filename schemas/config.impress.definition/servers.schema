@@ -1,0 +1,10 @@
+{
+  master: { category: 'server' },
+  www: { category: 'server' },
+  rpc: { category: 'server' },
+  secureRpc: { category: 'server' },
+  webRpc: { category: 'server' },
+  local: { category: 'server' },
+  ssl: { category: 'server' },
+  static: { category: 'server' },
+}

@@ -1,0 +1,6 @@
+{
+  global: { domain: 'Nomens' },
+  api: { domain: 'Nomens' },
+  export: { domain: 'Nomens' },
+  import: { domain: 'Hash' }
+}

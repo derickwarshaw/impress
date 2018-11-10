@@ -1,0 +1,11 @@
+{
+  Instance: Enum('standalone', 'controller', 'server'),
+
+  Nomens: Many({ domain: 'Nomen' }),
+
+  Port: { type: 'number' },
+  Ports: Many({ domain: 'Port' }),
+
+  Protocol: Enum('http', 'jstp'),
+  Transport: Enum('tls', 'tcp', 'ws', 'wss'),
+}

@@ -1,0 +1,10 @@
+{
+  databases: { domain: 'Databases', required: true },
+  files: { category: 'files', required: true },
+  log: { category: 'log', required: true },
+  hosts: { domain: 'Hosts', required: true },
+  mail: { category: 'mail', required: true },
+  routes: { domain: 'Routes', required: true },
+  sessions: { category: 'sessions', required: true },
+  sandbox: { category: 'sandbox', required: true }
+}

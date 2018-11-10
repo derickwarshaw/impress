@@ -1,0 +1,6 @@
+{
+  Databases: Many('database'),
+  Routes: Many('route'),
+  Hosts: Many({ domain: 'Host' }),
+  Hash: { type: 'object', class: 'Object' }
+}

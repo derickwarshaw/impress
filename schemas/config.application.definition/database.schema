@@ -1,0 +1,7 @@
+{
+  alias: { domain: 'Nomen' },
+  url: { domain: 'URL', required: true },
+  collections: { domain: 'Nomens' },
+  slowTime: { domain: 'Duration', required: true },
+  security: { domain: 'Logical', required: true }
+}
